@@ -96,3 +96,4 @@ def play_game() :
         
 
 play_game()
+# Now the game is successfully 
