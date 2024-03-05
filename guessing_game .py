@@ -76,7 +76,12 @@ def distribution(from_list,choice) :
     return combined
 def play_game() :
     while True :
-        print("*********************************************************")    
+        print("*********************************************************")   
+statement =f"""
+       CHOOSE ANY NUMBER FROM 1 to  21
+       JUST TELL ME ITS IN GROUP (A,B or C)?,
+       IWILL TELL YOU THE NUMBER after 2 GROUPING. YOU CAN DO IT MILLIONS TIMES AFTER I TOLD YOU THE SECRET NUMBER. 
+""" 
         show_selections(list1)
         choice1 = input( "Select Room of Your Choice From The Above1 : ").upper()
         """ Assign list 2 to be the combined from list 1 after selection
