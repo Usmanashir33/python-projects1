@@ -1,4 +1,4 @@
-import numpy as np
+#import numpy as np
 list1 = [ x for x in range(1,22,)]
 list2 = []
 list3 = []
@@ -76,7 +76,8 @@ def distribution(from_list,choice) :
     return combined
 def play_game() :
     while True :
-        print("*********************************************************")
+        print(f"""
+   *********************************************************""")
         statement =f"""
              CHOOSE ANY NUMBER FROM 1 to  21
            JUST TELL ME ITS IN GROUP (A,B or C)?,
